@@ -1,8 +1,78 @@
-# 🍲 App Recetas Inteligentes
+![arquitectura_app_recetas_inteligentes](https://github.com/user-attachments/assets/12af909a-ff0c-44f1-9901-3e48597e3409)# 🍲 App Recetas Inteligentes
 
 > **Desarrollar Software es como Preparar unos Fríjoles**
 
 Así como un buen cocinero organiza sus ingredientes antes de empezar, esta app organiza todo tu proceso culinario. Una aplicación web que transforma la forma de preparar recetas tradicionales, ajustando automáticamente cantidades, controlando tiempos y calculando costos con inteligencia.
+![Uploading arquitectur<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000">
+
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L10,3 L0,6 Z" fill="#444" />
+</marker>
+</defs>
+
+<text x="800.0" y="40" font-family="Arial, Helvetica, sans-serif" font-size="26" text-anchor="middle" font-weight="bold" fill="#111">Arquitectura General — App Recetas Inteligentes (Analogía: Cocinar Fríjoles)</text>
+<rect x="60" y="120" width="220" height="90" rx="12" ry="12" fill="#e8f5e9" stroke="#333" stroke-width="2"/>
+<text x="170" y="160" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">👤 Usuario</text>
+<text x="170" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Explora recetas</text>
+<text x="170" y="205" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Ajusta porciones</text>
+<rect x="320" y="90" width="1220" height="240" rx="12" ry="12" fill="#fff3e0" stroke="#cc7a00" stroke-width="2"/>
+<text x="930" y="115" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">NIVEL 1 — FRONTEND (React / HTML5 / CSS3 / JavaScript)</text>
+<rect x="360" y="150" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="445" y="190" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Login / Registro</text>
+<rect x="560" y="150" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="645" y="190" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">📖 Biblioteca de Recetas</text>
+<rect x="760" y="150" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="845" y="190" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Vista Receta</text>
+<rect x="960" y="150" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="1045" y="190" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">🧮 Ajuste Porciones</text>
+<rect x="1160" y="150" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="1245" y="190" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">🛒 Generar Lista PDF</text>
+<rect x="560" y="230" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="645" y="270" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">⏱️ Temporizador</text>
+<rect x="860" y="230" width="170" height="70" rx="12" ry="12" fill="#ffcc80" stroke="#a85d00" stroke-width="2"/>
+<text x="945" y="270" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">💵 Cálculo Costos</text>
+<rect x="320" y="360" width="1220" height="260" rx="12" ry="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="930" y="385" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">NIVEL 2 — BACKEND (Django / Python REST API)</text>
+<rect x="380" y="420" width="190" height="80" rx="12" ry="12" fill="#90caf9" stroke="#0d47a1" stroke-width="2"/>
+<text x="475" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Autenticación Usuarios</text>
+<rect x="610" y="420" width="190" height="80" rx="12" ry="12" fill="#90caf9" stroke="#0d47a1" stroke-width="2"/>
+<text x="705" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Gestión Recetas</text>
+<rect x="840" y="420" width="190" height="80" rx="12" ry="12" fill="#90caf9" stroke="#0d47a1" stroke-width="2"/>
+<text x="935" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Motor Cálculo Porciones</text>
+<rect x="1070" y="420" width="190" height="80" rx="12" ry="12" fill="#90caf9" stroke="#0d47a1" stroke-width="2"/>
+<text x="1165" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Generador PDF Compras</text>
+<rect x="1300" y="420" width="190" height="80" rx="12" ry="12" fill="#90caf9" stroke="#0d47a1" stroke-width="2"/>
+<text x="1395" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Lógica Temporizador</text>
+<rect x="320" y="670" width="1220" height="200" rx="12" ry="12" fill="#eeeeee" stroke="#555" stroke-width="2"/>
+<text x="930" y="695" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">NIVEL 3 — BASE DE DATOS (PostgreSQL)</text>
+<rect x="400" y="740" width="150" height="80" rx="12" ry="12" fill="#bdbdbd" stroke="#424242" stroke-width="2"/>
+<text x="475" y="785" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Usuarios</text>
+<rect x="600" y="740" width="150" height="80" rx="12" ry="12" fill="#bdbdbd" stroke="#424242" stroke-width="2"/>
+<text x="675" y="785" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Recetas</text>
+<rect x="800" y="740" width="150" height="80" rx="12" ry="12" fill="#bdbdbd" stroke="#424242" stroke-width="2"/>
+<text x="875" y="785" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Ingredientes</text>
+<rect x="1000" y="740" width="150" height="80" rx="12" ry="12" fill="#bdbdbd" stroke="#424242" stroke-width="2"/>
+<text x="1075" y="785" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">Pasos</text>
+<rect x="1200" y="740" width="150" height="80" rx="12" ry="12" fill="#bdbdbd" stroke="#424242" stroke-width="2"/>
+<text x="1275" y="785" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">ListasCompra</text>
+<line x1="280" y1="165" x2="360" y2="165" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="445" y1="310" x2="445" y2="420" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="645" y1="310" x2="645" y2="420" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="845" y1="310" x2="845" y2="420" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1045" y1="310" x2="1045" y2="420" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1245" y1="310" x2="1245" y2="420" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="475" y1="500" x2="475" y2="740" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="675" y1="500" x2="675" y2="740" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="875" y1="500" x2="875" y2="740" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1075" y1="500" x2="1075" y2="740" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1275" y1="500" x2="1275" y2="740" stroke="#444" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="60" y="300" width="220" height="120" rx="12" ry="12" fill="#f1f8e9" stroke="#333" stroke-width="2"/>
+<text x="170" y="330" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">Analogía Cocina</text>
+<text x="170" y="355" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Frontend = Presentar plato</text>
+<text x="170" y="380" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Backend = Cocinar fríjoles</text>
+<text x="170" y="405" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">BD = Despensa ingredientes</text>
+</svg>a_app_recetas_inteligentes.svg…]()
 
 ---
 
