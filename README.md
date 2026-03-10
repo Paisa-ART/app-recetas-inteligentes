@@ -1,16 +1,21 @@
-![arquitectura_app_recetas_inteligentes](https://github.com/user-attachments/assets/12af909a-ff0c-44f1-9901-3e48597e3409)# 🍲 App Recetas Inteligentes
+![arquitectura_app_recetas_inteligentes](https://github.com/user-attachments/assets/12af909a-ff0c-44f1-9901-3e48597e3409)
+
+# 🍲 App Recetas Inteligentes
 
 > **Desarrollar Software es como Preparar unos Fríjoles**
 
 Así como un buen cocinero organiza sus ingredientes antes de empezar, esta app organiza todo tu proceso culinario. Una aplicación web que transforma la forma de preparar recetas tradicionales, ajustando automáticamente cantidades, controlando tiempos y calculando costos con inteligencia.
-![Uploading arquitectur<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000">
+
+
+
 
 <defs>
 <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L10,3 L0,6 Z" fill="#444" />
 </marker>
 </defs>
-
+<img width="1560" height="891" alt="Screenshot 2026-03-10 003002" src="https://github.com/user-attachments/assets/2624d095-a831-4a41-b2a2-3eaad34d2417" />
+![Uploading arquitectur<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000">
 <text x="800.0" y="40" font-family="Arial, Helvetica, sans-serif" font-size="26" text-anchor="middle" font-weight="bold" fill="#111">Arquitectura General — App Recetas Inteligentes (Analogía: Cocinar Fríjoles)</text>
 <rect x="60" y="120" width="220" height="90" rx="12" ry="12" fill="#e8f5e9" stroke="#333" stroke-width="2"/>
 <text x="170" y="160" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">👤 Usuario</text>
